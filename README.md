@@ -11,27 +11,95 @@
   1).HTML5
 
     新增标签：
-      canvas  标签定义图形，比如图表和其他图像。该标签基于 JavaScript 的绘图 API
+
+      (1).新元素 canvas 画布  标签定义图形，比如图表和其他图像。该标签基于 JavaScript 的绘图 API
+
+        <canvas> 标签通过脚本（通常是 JavaScript）来绘制图形（比如图表和其他图像）。
+        <canvas> 标签只是图形容器，您必须使用脚本来绘制图形。
+        属性：width(规定画布的宽度),height(规定画布的高度)
 
         通过 <canvas> 元素来显示一个红色的矩形：
         <canvas id="myCanvas"></canvas>
-         
+ 
         <script type="text/javascript">
-        var canvas=document.getElementById('myCanvas');
-        var ctx=canvas.getContext('2d');
-        ctx.fillStyle='#FF0000';
-        ctx.fillRect(0,0,80,100);
+          var canvas=document.getElementById('myCanvas');
+          var ctx=canvas.getContext('2d');
+          ctx.fillStyle='#FF0000';
+          ctx.fillRect(0,0,80,100);
         </script>
 
+      (2).新的多媒体元素 
+
       audio 定义音频内容
+
+        <audio> 标签定义声音，比如音乐或其他音频流。
+        目前，<audio> 元素支持的3种文件格式：MP3、Wav、Ogg。
+        属性：
+        属性          值         描述
+        autoplayNew   autoplay  如果出现该属性，则音频在就绪后马上播放。
+        controlsNew   controls  如果出现该属性，则向用户显示音频控件（比如播放/暂停按钮）。
+        loopNew       loop      如果出现该属性，则每当音频结束时重新开始播放。
+        mutedNew      muted     如果出现该属性，则音频输出为静音。
+        preloadNew    auto,metadata,none 规定当网页加载时，音频是否默认被加载以及如何被加载。
+        srcNew        URL       规定音频文件的 URL。
+        
+        播放声音：
+        <audio controls>
+          <source src="horse.ogg" type="audio/ogg">
+          <source src="horse.mp3" type="audio/mpeg">
+          您的浏览器不支持 audio 元素。
+        </audio>
+
       video 定义视频（video 或者 movie）
+
+        <video> 标签定义视频，比如电影片段或其他视频流。
+        目前，<video> 元素支持三种视频格式：MP4、WebM、Ogg。
+        属性：
+        属性             值       描述
+        autoplayNew   autoplay    如果出现该属性，则视频在就绪后马上播放。
+        controlsNew   controls    如果出现该属性，则向用户显示控件，比如播放按钮。
+        heightNew     pixels      设置视频播放器的高度。
+        loopNew       loop        如果出现该属性，则当媒介文件完成播放后再次开始播放。
+        mutedNew      muted       如果出现该属性，视频的音频输出为静音。
+        posterNew     URL         规定视频正在下载时显示的图像，直到用户点击播放按钮。
+        preloadNew    auto,metadata,none  如果出现该属性，则视频在页面加载时进行加载，并预备播放。如果使用 "autoplay"，则忽略该属性。
+        srcNew        URL         要播放的视频的 URL。
+        widthNew      pixels      设置视频播放器的宽度。
+
+        播放录像：
+        <video width="320" height="240" controls>
+            <source src="movie.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+            您的浏览器不支持 video 标签。
+        </video>
+
       source  定义多媒体资源 video 和 audio
+
+        <source> 标签为媒体元素（比如 <video> 和 <audio>）定义媒体资源。
+        <source> 标签允许您规定两个视频/音频文件共浏览器根据它对媒体类型或者编解码器的支持进行选择。
+        属性：
+        属性        值             描述
+        mediaNew  media_query   规定媒体资源的类型，供浏览器决定是否下载。
+        srcNew    URL           规定媒体文件的 URL。
+        typeNew   MIME_type     规定媒体资源的 MIME 类型。
+                  (video/ogg,video/mp4,video/webm,audio/ogg,audio/mpeg)
+        
+        <audio controls>
+          <source src="horse.ogg" type="audio/ogg">
+          <source src="horse.mp3" type="audio/mpeg">
+          您的浏览器不支持 audio 元素。
+        </audio>
+
       embed 定义嵌入的内容，比如插件。
       track 为诸如 video 和 audio 元素之类的媒介规定外部文本轨道。
+      
+      (3).新的表单元素
 
       datalist  定义选项列表。请与 input 元素配合使用该元素，来定义 input 可能的值。
       keygen  规定用于表单的密钥对生成器字段。
       output  定义不同类型的输出，比如脚本的输出。
+
+      (4).新的表单元素
 
       article  定义页面独立的内容区域。
       aside  定义页面的侧边栏内容。
