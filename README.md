@@ -18,16 +18,8 @@
         <canvas> 标签只是图形容器，您必须使用脚本来绘制图形。
         属性：width(规定画布的宽度),height(规定画布的高度)
 
-        通过 <canvas> 元素来显示一个红色的矩形：
-        <canvas id="myCanvas"></canvas>
- 
-        <script type="text/javascript">
-          var canvas=document.getElementById('myCanvas');
-          var ctx=canvas.getContext('2d');
-          ctx.fillStyle='#FF0000';
-          ctx.fillRect(0,0,80,100);
-        </script>
-
+        <a href="">通过 <canvas> 元素来显示一个红色的矩形</a>
+        
       (2).新的多媒体元素 
 
       audio 定义音频内容
