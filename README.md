@@ -18,7 +18,7 @@
         <canvas> 标签只是图形容器，您必须使用脚本来绘制图形。
         属性：width(规定画布的宽度),height(规定画布的高度)
 
-        <a href="">通过 <canvas> 元素来显示一个红色的矩形</a>
+        <a href="https://github.com/86runge/runge/blob/master/html/canvas.html">通过 <canvas> 元素来显示一个红色的矩形</a>
         
       (2).新的多媒体元素 
 
@@ -91,7 +91,7 @@
       keygen  规定用于表单的密钥对生成器字段。
       output  定义不同类型的输出，比如脚本的输出。
 
-      (4).新的表单元素
+      (4).新的标签元素
 
       article  定义页面独立的内容区域。
       aside  定义页面的侧边栏内容。
