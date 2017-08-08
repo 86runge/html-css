@@ -3,7 +3,7 @@
 核心知识
 
 1.Git和GitHub
-  
+
   常见的工具的使用， 对比工具：Beyond Compare 3; 可视化工具：SourceTree，gitk
 
 2.HTML5和CSS3 布局和样式
@@ -19,8 +19,8 @@
         属性：width(规定画布的宽度),height(规定画布的高度)
 
         <a href="https://github.com/86runge/runge/blob/master/html/canvas.html">通过 <canvas> 元素来显示一个红色的矩形</a>
-        
-      (2).新的多媒体元素 
+
+      (2).新的多媒体元素
 
       audio 定义音频内容
 
@@ -34,13 +34,8 @@
         mutedNew      muted     如果出现该属性，则音频输出为静音。
         preloadNew    auto,metadata,none 规定当网页加载时，音频是否默认被加载以及如何被加载。
         srcNew        URL       规定音频文件的 URL。
-        
-        播放声音：
-        <audio controls>
-          <source src="horse.ogg" type="audio/ogg">
-          <source src="horse.mp3" type="audio/mpeg">
-          您的浏览器不支持 audio 元素。
-        </audio>
+
+        <a href="https://github.com/86runge/runge/blob/master/html/audio.html">通过 <canvas>播放声音：</a>
 
       video 定义视频（video 或者 movie）
 
@@ -58,12 +53,7 @@
         srcNew        URL         要播放的视频的 URL。
         widthNew      pixels      设置视频播放器的宽度。
 
-        播放录像：
-        <video width="320" height="240" controls>
-            <source src="movie.mp4" type="video/mp4">
-            <source src="movie.ogg" type="video/ogg">
-            您的浏览器不支持 video 标签。
-        </video>
+        <a href="https://github.com/86runge/runge/blob/master/html/video.html">通过 <canvas>播放录像：</a>
 
       source  定义多媒体资源 video 和 audio
 
@@ -75,7 +65,7 @@
         srcNew    URL           规定媒体文件的 URL。
         typeNew   MIME_type     规定媒体资源的 MIME 类型。
                   (video/ogg,video/mp4,video/webm,audio/ogg,audio/mpeg)
-        
+
         <audio controls>
           <source src="horse.ogg" type="audio/ogg">
           <source src="horse.mp3" type="audio/mpeg">
@@ -84,7 +74,7 @@
 
       embed 定义嵌入的内容，比如插件。
       track 为诸如 video 和 audio 元素之类的媒介规定外部文本轨道。
-      
+
       (3).新的表单元素
 
       datalist  定义选项列表。请与 input 元素配合使用该元素，来定义 input 可能的值。
@@ -113,6 +103,8 @@
       rp   在 ruby 注释中使用，定义不支持 ruby 元素的浏览器所显示的内容。
       section  定义文档中的节（section、区段）。
       time   定义日期或时间。
-      wbr  规定在文本中的何处适合添加换行符。
-      
+      wbr  **规定在文本中的何处适合添加换行符。**
+
+      [html5新标签的结构图：](https://github.com/86runge/runge/blob/master/html/target.html)
+
   2).css3
