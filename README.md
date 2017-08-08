@@ -10,7 +10,6 @@
 
 1).HTML5
 
-````
 新增标签：
 
   (1).新元素 canvas 画布  标签定义图形，比如图表和其他图像。该标签基于 JavaScript 的绘图 API
@@ -111,6 +110,5 @@
   ![html5新标签的结构图](https://github.com/86runge/runge/blod/master/html/target.html)
   ![html5新标签的结构图](https://github.com/86runge/runge/blod/master/img/html5.jpg)
   ![baidu](http://www.baidu.com/bdlogo.jif)
-````
 
 2).css3
