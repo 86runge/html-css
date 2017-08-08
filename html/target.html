@@ -2,14 +2,121 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>target</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>target</title>
+  <link rel="stylesheet" href="../css/base.css">
+  <style media="screen">
+    #content {
+      width: 1200px;
+      margin: 50px auto;
+      padding: 0 50px;
+      text-align: center;
+    }
+
+    #content>aside {
+      float: left;
+    }
+
+    #content>aside img {
+      margin-top: 20px;
+    }
+
+    #content>article {
+      width: 700px;
+      margin-left: 50px;
+      float: left;
+    }
+
+    #content>article>header {
+      height: 75px;
+      font-size: 25px;
+      line-height: 75px;
+    }
+
+    #content>article>footer {
+      height: 50px;
+      font-size: 22px;
+      line-height: 50px;
+    }
+
+    #main-con{
+      height: 250px;
+    }
+
+    #main-con>nav {
+      width: 100px;
+      height: 235px;
+      float: left;
+      line-height: 50px;
+    }
+
+    #main-con>section {
+      width: 390px;
+      height: 235px;
+      float: left;
+    }
+
+    #main-con>section>header{
+      height: 40px;
+      line-height: 40px;
+    }
+
+    #main-con>section>article{
+      height: 130px;
+      line-height: 130px;
+    }
+
+    #main-con>section>footer{
+      height: 40px;
+      line-height: 40px;
+    }
+
+    #main-con>aside {
+      width: 180px;
+      height: 235px;
+      float: left;
+      line-height: 235px;
+    }
+
+    .border-con {
+      border: 2px solid #e010e4;
+      box-sizing: border-box;
+      margin: 5px;
+    }
+  </style>
 </head>
 
 <body>
 
 </body>
+<div id="content">
+  <aside>
+    <p>简单的结构图</p>
+    <img src="../img/html5.jpg" alt="">
+  </aside>
+  <article>
+    <header class="border-con">
+      <h1><a href="JavaScript">这是header</a></h1></header>
+    <div class="clearfloat" id="main-con">
+      <nav class="border-con">
+        <ul>
+          <li><a href="JavaScript">菜单一</a></li>
+          <li><a href="JavaScript">菜单二</a></li>
+          <li><a href="JavaScript">菜单三</a></li>
+          <li><a href="JavaScript">菜单四</a></li>
+        </ul>
+      </nav>
+      <section class="border-con">
+        <header class="border-con">内容标题</header>
+        <article class="border-con">文章内容</article>
+        <footer class="border-con">文章版权内容</footer>
+      </section>
+      <aside class="border-con">相关内容</aside>
+    </div>
+    <footer class="border-con">页脚、页面版权内容</footer>
+  </article>
+</div>
 
 </html>

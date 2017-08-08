@@ -66,11 +66,13 @@
         typeNew   MIME_type     规定媒体资源的 MIME 类型。
                   (video/ogg,video/mp4,video/webm,audio/ogg,audio/mpeg)
 
+        ```html
         <audio controls>
           <source src="horse.ogg" type="audio/ogg">
           <source src="horse.mp3" type="audio/mpeg">
           您的浏览器不支持 audio 元素。
         </audio>
+        ```
 
       embed 定义嵌入的内容，比如插件。
       track 为诸如 video 和 audio 元素之类的媒介规定外部文本轨道。
@@ -105,6 +107,6 @@
       time   定义日期或时间。
       wbr  **规定在文本中的何处适合添加换行符。**
 
-      [html5新标签的结构图：](https://github.com/86runge/runge/blob/master/html/target.html)
+      ![html5新标签的结构图](https://github.com/86runge/runge/tree/master/html/target.html)
 
   2).css3
