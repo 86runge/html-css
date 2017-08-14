@@ -2,9 +2,11 @@
 
 核心知识
 
-1.Git和GitHub
+1.Git、GitHub和gitlab
 
 常见的工具的使用， 对比工具：Beyond Compare 3; 可视化工具：SourceTree，gitk
+
+<a href="https://github.com/86runge/runge/raw/master/html/canvas.html">git常见命令</a>
 
 2.HTML5和CSS3 布局和样式
 
@@ -18,7 +20,7 @@
     <canvas> 标签只是图形容器，您必须使用脚本来绘制图形。
     属性：width(规定画布的宽度),height(规定画布的高度)
 
-    <a href="https://github.com/86runge/runge/blob/master/html/canvas.html">通过 <canvas> 元素来显示一个红色的矩形</a>
+    <a href="https://github.com/86runge/runge/raw/master/html/canvas.html">通过 <canvas> 元素来显示一个红色的矩形</a>
 
   (2).新的多媒体元素
 
@@ -35,7 +37,7 @@
     preloadNew    auto,metadata,none 规定当网页加载时，音频是否默认被加载以及如何被加载。
     srcNew        URL       规定音频文件的 URL。
 
-    <a href="https://github.com/86runge/runge/blob/master/html/audio.html">通过 <canvas>播放声音：</a>
+    <a href="https://github.com/86runge/runge/raw/master/html/audio.html">通过 <canvas>播放声音：</a>
 
   video 定义视频（video 或者 movie）
 
@@ -53,7 +55,7 @@
     srcNew        URL         要播放的视频的 URL。
     widthNew      pixels      设置视频播放器的宽度。
 
-    <a href="https://github.com/86runge/runge/blob/master/html/video.html">通过 <canvas>播放录像：</a>
+    <a href="https://github.com/86runge/runge/raw/master/html/video.html">通过 <canvas>播放录像：</a>
 
   source  定义多媒体资源 video 和 audio
 
@@ -105,7 +107,7 @@
   rp   在 ruby 注释中使用，定义不支持 ruby 元素的浏览器所显示的内容。
   section  定义文档中的节（section、区段）。
   time   定义日期或时间。
-  wbr  **规定在文本中的何处适合添加换行符。**
+  wbr  规定在文本中的何处适合添加换行符。
 
   ![html5新标签的结构图](https://github.com/86runge/runge/raw/master/img/html5.jpg)
 
