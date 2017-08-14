@@ -2,45 +2,45 @@
 
 git命令：
 
-  查看、添加、提交、删除、找回，重置修改文件
+  1. 查看、添加、提交、删除、找回，重置修改文件
 
-  git help <command> # 显示command的help
-  git show # 显示某次提交的内容 git show $id
-  git co -- <file> # 抛弃工作区修改
-  git co . # 抛弃工作区修改
-  git add <file> # 将工作文件修改提交到本地暂存区
-  git add . # 将所有修改过的工作文件提交暂存区
-  git rm <file> # 从版本库中删除文件
-  git rm <file> --cached # 从版本库中删除文件，但不删除文件
-  git reset <file> # 从暂存区恢复到工作文件
-  git reset -- . # 从暂存区恢复到工作文件
-  git reset --hard # 恢复最近一次提交过的状态，即放弃上次提交后的所有本次修改
-  git ci <file> git ci . git ci -a # 将git add, git rm和git ci等操作都合并在一起做 git ci -am "some comments"
-  git ci --amend # 修改最后一次提交记录
-  git revert <$id> # 恢复某次提交的状态，恢复动作本身也创建次提交对象
-  git revert HEAD # 恢复最后一次提交的状态
+    git help <command> # 显示command的help
+    git show # 显示某次提交的内容 git show $id
+    git co -- <file> # 抛弃工作区修改
+    git co . # 抛弃工作区修改
+    git add <file> # 将工作文件修改提交到本地暂存区
+    git add . # 将所有修改过的工作文件提交暂存区
+    git rm <file> # 从版本库中删除文件
+    git rm <file> --cached # 从版本库中删除文件，但不删除文件
+    git reset <file> # 从暂存区恢复到工作文件
+    git reset -- . # 从暂存区恢复到工作文件
+    git reset --hard # 恢复最近一次提交过的状态，即放弃上次提交后的所有本次修改
+    git ci <file> git ci . git ci -a # 将git add, git rm和git ci等操作都合并在一起做 git ci -am "some comments"
+    git ci --amend # 修改最后一次提交记录
+    git revert <$id> # 恢复某次提交的状态，恢复动作本身也创建次提交对象
+    git revert HEAD # 恢复最后一次提交的状态
 
-  查看文件diff
+  2. 查看文件diff
 
-  git diff <file> # 比较当前文件和暂存区文件差异 git diff
-  git diff <id1><id2> # 比较两次提交之间的差异
-  git diff <branch1>..<branch2> # 在两个分支之间比较
-  git diff --staged # 比较暂存区和版本库差异
-  git diff --cached # 比较暂存区和版本库差异
-  git diff --stat # 仅仅比较统计信息
+    git diff <file> # 比较当前文件和暂存区文件差异 git diff
+    git diff <id1><id2> # 比较两次提交之间的差异
+    git diff <branch1>..<branch2> # 在两个分支之间比较
+    git diff --staged # 比较暂存区和版本库差异
+    git diff --cached # 比较暂存区和版本库差异
+    git diff --stat # 仅仅比较统计信息
 
-  查看提交记录
+  3.查看提交记录
 
-  git log git log <file> # 查看该文件每次提交记录
-  git log -p <file> # 查看每次详细修改内容的diff
-  git log -p -2 # 查看最近两次详细修改内容的diff
-  git log --stat #查看提交统计信息
+    git log git log <file> # 查看该文件每次提交记录
+    git log -p <file> # 查看每次详细修改内容的diff
+    git log -p -2 # 查看最近两次详细修改内容的diff
+    git log --stat #查看提交统计信息
 
-  tig
+  4.tig
 
   Mac上可以使用tig代替diff和log，brew install tig
 
-  Git 本地分支管理
+  5.Git 本地分支管理
 
     查看、切换、创建和删除分支
 
