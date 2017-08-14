@@ -6,7 +6,7 @@
 
 常见的工具的使用， 对比工具：Beyond Compare 3; 可视化工具：SourceTree，gitk
 
-<a href="https://github.com/86runge/runge/raw/master/html/GIT.md">git常见命令</a>
+<a href="https://github.com/86runge/runge/tree/master/html/GIT.md">git常见命令</a>
 
 2.HTML5和CSS3 布局和样式
 
@@ -20,7 +20,7 @@
     <canvas> 标签只是图形容器，您必须使用脚本来绘制图形。
     属性：width(规定画布的宽度),height(规定画布的高度)
 
-  <a href="https://github.com/86runge/runge/raw/master/html/canvas.html">通过 <canvas> 元素来显示一个红色的矩形</a>
+  <a href="https://github.com/86runge/runge/tree/master/html/canvas.html">通过 <canvas> 元素来显示一个红色的矩形</a>
 
   (2).新的多媒体元素
 
@@ -37,25 +37,26 @@
     preloadNew    auto,metadata,none 规定当网页加载时，音频是否默认被加载以及如何被加载。
     srcNew        URL       规定音频文件的 URL。
 
-  <a href="https://github.com/86runge/runge/raw/master/html/audio.html">通过 <canvas>播放声音：</a>
+  <a href="https://github.com/86runge/runge/tree/master/html/audio.html">通过 <canvas>播放声音：</a>
 
   video 定义视频（video 或者 movie）
 
     <video> 标签定义视频，比如电影片段或其他视频流。
     目前，<video> 元素支持三种视频格式：MP4、WebM、Ogg。
     属性：
-    属性             值       描述
-    autoplayNew   autoplay    如果出现该属性，则视频在就绪后马上播放。
-    controlsNew   controls    如果出现该属性，则向用户显示控件，比如播放按钮。
-    heightNew     pixels      设置视频播放器的高度。
-    loopNew       loop        如果出现该属性，则当媒介文件完成播放后再次开始播放。
-    mutedNew      muted       如果出现该属性，视频的音频输出为静音。
-    posterNew     URL         规定视频正在下载时显示的图像，直到用户点击播放按钮。
-    preloadNew    auto,metadata,none  如果出现该属性，则视频在页面加载时进行加载，并预备播放。如果使用 "autoplay"，则忽略该属性。
-    srcNew        URL         要播放的视频的 URL。
-    widthNew      pixels      设置视频播放器的宽度。
+    属性             值              描述
+    autoplayNew   autoplay          如果出现该属性，则视频在就绪后马上播放。
+    controlsNew   controls          如果出现该属性，则向用户显示控件，比如播放按钮。
+    heightNew     pixels            设置视频播放器的高度。
+    loopNew       loop              如果出现该属性，则当媒介文件完成播放后再次开始播放。
+    mutedNew      muted             如果出现该属性，视频的音频输出为静音。
+    posterNew     URL               规定视频正在下载时显示的图像，直到用户点击播放按钮。
+    preloadNew    auto,             如果出现该属性，则视频在页面加载时进行加载，并预备播放。
+                  metadata,none     如果使用 "autoplay"，则忽略该属性。
+    srcNew        URL               要播放的视频的 URL。
+    widthNew      pixels            设置视频播放器的宽度。
 
-  <a href="https://github.com/86runge/runge/raw/master/html/video.html">通过 <canvas>播放录像：</a>
+  <a href="https://github.com/86runge/runge/tree/master/html/video.html">通过 <canvas>播放录像：</a>
 
   source  定义多媒体资源 video 和 audio
 
