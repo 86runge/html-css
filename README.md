@@ -107,8 +107,6 @@
   time   定义日期或时间。
   wbr  **规定在文本中的何处适合添加换行符。**
 
-  ![html5新标签的结构图](https://github.com/86runge/runge/blod/master/html/target.html)
-  ![html5新标签的结构图](https://github.com/86runge/runge/blod/master/img/html5.jpg)
-  ![baidu](http://www.baidu.com/bdlogo.jif)
+  [html5新标签的结构图](https://github.com/86runge/runge/raw/master/img/html5.jpg)
 
 2).css3
