@@ -60,7 +60,8 @@
 
     git merge <branch> # 将branch分支合并到当前分支
     git merge origin/master --no-ff # 不要Fast-Foward合并，这样可以生成merge提交
-    git rebase master <branch> # 将master rebase到branch，相当于： git co <branch> && git rebase master && git co master && git merge <branch>
+    git rebase master <branch> # 将master rebase到branch，相当于： 
+    git co <branch> && git rebase master && git co master && git merge <branch>
 
   6.Git补丁管理(方便在多台机器上开发同步时用)
 
@@ -97,7 +98,8 @@
     git remote -v # 查看远程服务器地址和仓库名称
     git remote show origin # 查看远程服务器仓库状态
     git remote add origin git@ github:robbin/robbin_site.git # 添加远程仓库地址
-    git remote set-url origin git@ github.com:robbin/robbin_site.git # 设置远程仓库地址(用于修改远程仓库地址) git remote rm <repository> # 删除远程仓库
+    git remote set-url origin git@ github.com:robbin/robbin_site.git # 设置远程仓库地址(用于修改远程仓库地址) 
+    git remote rm <repository> # 删除远程仓库
 
   9.2创建远程仓库
 
